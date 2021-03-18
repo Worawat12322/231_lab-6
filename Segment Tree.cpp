@@ -1,18 +1,18 @@
 #include<stdio.h>
 int main(){
 	int n,q;
-	int i,l,k;
+	int i,l,k,m;
 	int plus=0;
 	scanf("%d %d",&n,&q);
 	int st[n]={0};
 	char fst[q];
-	int snd[q][2];
+	char snd[q][2];
+	fflush(stdin);
 	if(n<=1&&q<=262144)
 	{
 		for(i=0;i<q;i++)
 		{
-			fflush(stdin);
-			scanf("%c %d %d",fst[i],snd[i][0],snd[i][1]);
+			scanf("%c %c %c",&fst[i],&snd[i][0],&snd[i][1]);
 		}
 		for(l=0;l<q;l++)
 		{
