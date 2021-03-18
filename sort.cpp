@@ -7,18 +7,13 @@ int main(){
 	for(i=0;i<cnt;i++)
 	{
 		gets(rcv);
-		for(l=0;l<15;l++)
+		k=strlen(rcv);
+		for(l=0;l<=k;l++)
 		{
 			arr[i][l]=rcv[l];
 		}
 	}
-	for(i=0;i<cnt;i++)
-	{
-		for(l=0;;l++)
 		{
-			printf("%c",arr[i][l]);
-		}
-		l=0;
-	}
+	
 	return 0;
 }
