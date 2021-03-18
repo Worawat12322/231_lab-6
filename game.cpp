@@ -5,14 +5,8 @@ int main(){
 	scanf("%d",&a);
 	int num[a];
 	int gue[a],ans[a];
-	for(i=0;i<a;i++)
-	{
-		scanf("%d",&gue[i]);
-	}
-	for(l=0;l<a;l++)
-	{
-		scanf("%d",&ans[l]);
-	}
+	scanf("%d",gue);
+	scanf("%d",ans);
 	for(b=0;b<a;b++)
 	{
 		if(gue[b]==ans[b])
