@@ -13,7 +13,6 @@ int main(){
 			arr[i][l]=rcv[l];
 		}
 	}
-		{
 	
 	return 0;
 }
