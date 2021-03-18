@@ -4,6 +4,9 @@ int main(){
 	int co=0,inco=0;
 	scanf("%d",&a);
 	int gue[a],ans[a];
+	if(a>3&&a<10)
+	{
+	
 	for(i=0;i<a;i++)
 	{
 		scanf("%d",&gue[i]);	
@@ -22,5 +25,6 @@ int main(){
 		else inco++;
 	}
 	printf("%d %d",co,inco);
+	}
 	return 0;
 	}
